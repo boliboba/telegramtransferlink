@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Запрещаем прокрутку */
+    body {
+      background-color: #232323;
+      text-align: center;
+      padding: 0px;
+      margin: 0;
+      overflow: hidden; /* Отключаем прокрутку */
+    }
+
+    .cta-button {
+      display: inline-flex;
+      padding: 15px 30px;
+      background-color: #0088cc; /* Цвет кнопки в стиле Telegram */
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      align-items: center;
+      justify-content: center;
+      max-width: 150px; /* Максимальная ширина кнопки */
+      width: 100%; /* Ширина 100% до максимума */
+      box-sizing: border-box; /* Чтобы padding не выходил за пределы */
+    }
+
+    .cta-button:hover {
+      background-color: #006bb3; /* Более темный синий при наведении */
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Тень при наведении */
+    }
+
+    .cta-button img {
+      margin-right: 10px; /* Отступ между иконкой и текстом */
+      width: 24px;
+      height: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="https://t.me/isachenkobv" target="_blank" class="cta-button">
+    <img src="https://img.icons8.com/ios/452/telegram.png" alt="Telegram">
+    Telegram
+  </a>
+
+</body>
+</html>
